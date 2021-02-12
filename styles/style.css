@@ -6,3 +6,139 @@ Green: #00B172
 White: #FFF
 
 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+body {
+    font-family: Roboto;
+}
+
+#container {
+width: 1024px;
+margin: auto;
+}
+
+nav {
+    width: 100%;
+}
+
+#spotify-logo {
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+.nav-list {
+    list-style: none;
+    
+    
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list li {
+    float: right;
+    padding: 20px;
+}
+
+#landing {
+    width: 1024px;
+    height: auto;
+}
+
+#music-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+#music h1 {
+    font-size: 50px;
+}
+
+#music p {
+    font-size: 20px;
+}
+
+#whats-on h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+#whats-on img {
+    width: 100px;
+}
+
+#whats-on div {
+    width: 33%;
+    float: left;
+}
+
+#green {
+    background-color: green;
+}
+
+#left {
+    float: left
+}
+
+#spotify-icon-white {
+    width: 75px;
+}
+
+#spotify-app {
+    width: 25%;
+}
+
+#right-image {
+    float: right;
+}
